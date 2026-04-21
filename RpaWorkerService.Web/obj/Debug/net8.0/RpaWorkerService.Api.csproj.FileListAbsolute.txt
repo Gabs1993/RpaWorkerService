@@ -33,3 +33,4 @@ C:\Users\pichau\source\repos\RpaWorkerService\RpaWorkerService.Web\obj\Debug\net
 C:\Users\pichau\source\repos\RpaWorkerService\RpaWorkerService.Web\obj\Debug\net8.0\RpaWorkerService.Api.pdb
 C:\Users\pichau\source\repos\RpaWorkerService\RpaWorkerService.Web\obj\Debug\net8.0\RpaWorkerService.Api.genruntimeconfig.cache
 C:\Users\pichau\source\repos\RpaWorkerService\RpaWorkerService.Web\obj\Debug\net8.0\ref\RpaWorkerService.Api.dll
+C:\Users\pichau\source\repos\RpaWorkerService\RpaWorkerService.Web\obj\Debug\net8.0\RpaWorkerService.Api.sourcelink.json

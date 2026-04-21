@@ -9,3 +9,4 @@ C:\Users\pichau\source\repos\RpaWorkerService\Infra.Data\obj\Debug\net8.0\Infra.
 C:\Users\pichau\source\repos\RpaWorkerService\Infra.Data\obj\Debug\net8.0\refint\Infra.Data.dll
 C:\Users\pichau\source\repos\RpaWorkerService\Infra.Data\obj\Debug\net8.0\Infra.Data.pdb
 C:\Users\pichau\source\repos\RpaWorkerService\Infra.Data\obj\Debug\net8.0\ref\Infra.Data.dll
+C:\Users\pichau\source\repos\RpaWorkerService\Infra.Data\obj\Debug\net8.0\Infra.Data.sourcelink.json

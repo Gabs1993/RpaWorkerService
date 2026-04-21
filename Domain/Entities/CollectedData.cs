@@ -11,16 +11,18 @@ namespace Domain.Entities
         public Guid Id { get; private set; } = Guid.NewGuid();
         public string Source { get; private set; } = string.Empty;
         public string Title { get; private set; } = string.Empty;
-        public string Value { get; private set; } = string.Empty;
+        public string Description { get; private set; } = string.Empty;
+        public string Url { get; private set; } = string.Empty;
         public DateTime CollectedAt { get; private set; } = DateTime.UtcNow;
 
         private CollectedData() { }
 
-        public CollectedData(string source, string title, string value)
+        public CollectedData(string source, string title, string description, string url)
         {
             Source = source;
             Title = title;
-            Value = value;
+            Description = description;
+            Url = url;
             CollectedAt = DateTime.UtcNow;
         }
     }
