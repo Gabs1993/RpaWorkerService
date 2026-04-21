@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{2F42F6B3-FDB7-455B-9F8F-79BEDCA6FDE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{4068C4D2-3AB3-4C87-A92A-728162661E63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Data", "Infra.Data\Infra.Data.csproj", "{38F98D0B-78F0-402C-801C-737BAC21C390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpaWorkerService.Api", "RpaWorkerService.Web\RpaWorkerService.Api.csproj", "{DEE01826-279A-44A2-9386-54E639694EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpaWorkerService.Worker", "RpaWorkerService.Worker\RpaWorkerService.Worker.csproj", "{6D64282F-E203-4B32-A68F-1EE0283D0E2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{380A7511-A354-6D7A-0CC0-8FA1F1BA7B6C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F42F6B3-FDB7-455B-9F8F-79BEDCA6FDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F42F6B3-FDB7-455B-9F8F-79BEDCA6FDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F42F6B3-FDB7-455B-9F8F-79BEDCA6FDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F42F6B3-FDB7-455B-9F8F-79BEDCA6FDE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4068C4D2-3AB3-4C87-A92A-728162661E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4068C4D2-3AB3-4C87-A92A-728162661E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4068C4D2-3AB3-4C87-A92A-728162661E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4068C4D2-3AB3-4C87-A92A-728162661E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F98D0B-78F0-402C-801C-737BAC21C390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F98D0B-78F0-402C-801C-737BAC21C390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F98D0B-78F0-402C-801C-737BAC21C390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F98D0B-78F0-402C-801C-737BAC21C390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE01826-279A-44A2-9386-54E639694EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE01826-279A-44A2-9386-54E639694EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE01826-279A-44A2-9386-54E639694EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE01826-279A-44A2-9386-54E639694EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D64282F-E203-4B32-A68F-1EE0283D0E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D64282F-E203-4B32-A68F-1EE0283D0E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D64282F-E203-4B32-A68F-1EE0283D0E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D64282F-E203-4B32-A68F-1EE0283D0E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF77681E-B70E-4F73-BEEE-A93C0D1A9D64}
+	EndGlobalSection
+EndGlobal
