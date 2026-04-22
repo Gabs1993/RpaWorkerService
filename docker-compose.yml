@@ -1,0 +1,31 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: ./RpaWorkerService.Web/Dockerfile
+    container_name: rpa_api
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__DefaultConnection: Data Source=/app/data/rpa.db
+      CurrencySettings__SourceUrl: https://api.frankfurter.dev/v2/rates?base=BRL&quotes=USD,EUR,GBP
+    volumes:
+      - rpa_data:/app/data
+
+  worker:
+    build:
+      context: .
+      dockerfile: ./RpaWorkerService.Worker/Dockerfile
+    container_name: rpa_worker
+    environment:
+      ConnectionStrings__DefaultConnection: Data Source=/app/data/rpa.db
+      CurrencySettings__SourceUrl: https://api.frankfurter.dev/v2/rates?base=BRL&quotes=USD,EUR,GBP
+      WorkerSettings__IntervalInMinutes: 1
+    volumes:
+      - rpa_data:/app/data
+    depends_on:
+      - api
+
+volumes:
+  rpa_data:

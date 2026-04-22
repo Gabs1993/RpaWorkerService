@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RpaWorkerService.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7299237865b6a33f3f3945a676d448c0e2d1ae02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39145ea3960c88dbb8eba58cfc7253726ec2103e")]
 [assembly: System.Reflection.AssemblyProductAttribute("RpaWorkerService.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RpaWorkerService.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
