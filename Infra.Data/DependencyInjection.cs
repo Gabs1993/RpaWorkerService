@@ -19,7 +19,7 @@ namespace Infra.Data
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             var connectionString = configuration.GetConnectionString("DefaultConnection")
-                                   ?? "Data Source=rpa.db";
+                                   ?? "Data Source=../rpa.db";
 
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlite(connectionString));
