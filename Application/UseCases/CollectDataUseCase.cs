@@ -38,6 +38,7 @@ namespace Application.UseCases
                 var alreadyExists = await _repository.ExistsAsync(
                     item.Source,
                     item.Title,
+                    item.Description,
                     item.Url,
                     cancellationToken);
 

@@ -12,6 +12,7 @@ namespace Domain.Interfaces
         Task AddRangeAsync(List<CollectedData> items, CancellationToken cancellationToken = default);
         Task<List<CollectedData>> GetAllAsync(CancellationToken cancellationToken = default);
         Task<CollectedData?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
-        Task<bool> ExistsAsync(string source, string title, string url, CancellationToken cancellationToken = default);
+        //Task<bool> ExistsAsync(string source, string title, string url, CancellationToken cancellationToken = default);
+        Task<bool> ExistsAsync(string source, string title, string description, string url, CancellationToken cancellationToken = default);
     }
 }

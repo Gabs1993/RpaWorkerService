@@ -38,14 +38,14 @@ namespace Infra.Data.Repositories
                 .FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
         }
 
-        public async Task<bool> ExistsAsync(string source, string title, string url, CancellationToken cancellationToken = default)
+        public async Task<bool> ExistsAsync(string source, string title, string description, string url, CancellationToken cancellationToken = default)
         {
-            return await _context.CollectedData
-                .AnyAsync(x =>
-                    x.Source == source &&
-                    x.Title == title &&
-                    x.Url == url,
-                    cancellationToken);
+            return await _context.CollectedData.AnyAsync(x =>
+                x.Source == source &&
+                x.Title == title &&
+                x.Description == description &&
+                x.Url == url,
+                cancellationToken);
         }
     }
 }

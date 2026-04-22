@@ -29,7 +29,7 @@ namespace Infra.Data
             services.AddScoped<GetCollectedDataUseCase>();
             services.AddScoped<GetCollectedDataByIdUseCase>();
 
-            services.AddHttpClient<IDataCollectorService, QuoteCollectorService>(client =>
+            services.AddHttpClient<IDataCollectorService, CurrencyCollectorService>(client =>
             {
                 client.Timeout = TimeSpan.FromSeconds(30);
                 client.DefaultRequestHeaders.UserAgent.ParseAdd("RpaWorkerService/1.0");
